@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://ai-potha-frontend-test.pages.dev"
+  "https://ai-potha-frontend-test.pages.dev",
 ];
 
 if (process.env.CLIENT_URL) {
@@ -57,5 +57,4 @@ app.get("/", (req, res) => {
     },
   });
 });
-
 module.exports = app;
