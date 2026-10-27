@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+/storage/*
+.DS_Store
+
+# Security: Prevent VS Code automatic tasks or settings from being committed
+
+# Security: Prevent VS Code auto-tasks from being committed
+.vscode/
